@@ -10,6 +10,7 @@ body {
 /* ==================================
                    PAGE 1
    =================================== */
+
 .header {
   display: flex;
   align-items: center;
@@ -76,6 +77,34 @@ body {
   font-size: 48px;
   line-height: 48px;
   text-align: center;
-  margin-top: 10%;    
+  margin-top: 10%;
   color: white;
+}
+
+/* ==================================
+                   PAGE 2
+   =================================== */
+
+.text-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-block: 112px;
+}
+
+.red-line {
+  width: 150px;
+  height: 4px;
+  background-color: rgba(224, 55, 64, 1);
+  margin: 0 auto 12px auto;
+}
+
+.text-container p {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -4%;
+  text-align: center;    
+  color: rgba(20, 21, 21, 1);
 }
