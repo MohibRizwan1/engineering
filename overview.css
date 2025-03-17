@@ -155,3 +155,17 @@ ul {
   width: 1320px;
   height: 745px;
 }
+
+
+/* ==================================
+                SECTION 5
+   =================================== */
+
+.ena-heading {
+  margin-top: 112px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;    
+}   
