@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* ==================================
@@ -141,4 +142,16 @@ ul {
   padding-left: 20px;
   font-size: 14px;
   line-height: 24px;
+}
+
+/* ==================================
+                SECTION 4
+   =================================== */
+
+.blueprint img {
+  display: flex;
+  justify-self: center;  
+  margin-top: 112px;
+  width: 1320px;
+  height: 745px;
 }
