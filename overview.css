@@ -1,9 +1,15 @@
+/* ==================================
+                GENERAL CSS
+   ================================== */
+
 body {
   padding: 0;
   margin: 0;
-  background-color: black;
 }
 
+/* ==================================
+                   PAGE 1
+   =================================== */
 .header {
   display: flex;
   align-items: center;
@@ -41,7 +47,7 @@ body {
   border: 0.5px solid white;
   color: white;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 10px 40px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -57,4 +63,19 @@ body {
   margin-left: 12px;
   margin-bottom: 5px;
   font-size: 20px;
+}
+
+.overview {
+  background-image: url(images/hero-section.svg);
+  height: 545px;
+}
+
+.overview-text {
+  font-family: "Cygre";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 10%;    
+  color: white;
 }
