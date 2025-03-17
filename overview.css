@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-block: 16px;
+  margin-inline: 144px;
+  border-bottom: 0.5px solid white;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  gap: 56px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo img {
+  margin-left: 25px;
+}
+
+.action-button {
+  background: none;
+  border: 0.5px solid white;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.action-button:hover {
+  background: white;
+  color: black;
+}
+
+.action-button span {
+  margin-left: 12px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
