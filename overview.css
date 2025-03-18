@@ -3,7 +3,6 @@
    ================================== */
 
 body {
-  padding-bottom: 1000px;
   margin: 0;
   overflow-x: hidden;
 }
@@ -121,7 +120,7 @@ body {
   text-align: center;
   list-style-position: inside;
   gap: 112px;
-}   
+}
 
 .list-section {
   width: 548px;
@@ -263,7 +262,7 @@ body {
   text-align: center;
   list-style-position: inside;
   gap: 40px;
-}   
+}
 
 .text-section {
   width: 548px;
@@ -303,4 +302,42 @@ body {
   gap: 112px;
   justify-content: center;
   margin-top: 112px;
-}   
+}
+
+/* ==================================
+                SECTION 12
+   =================================== */
+
+.footer {
+  background-color: rgb(20, 21, 21);
+  margin-top: 200px;
+  padding: 72px 144px;
+  font-family: "Roboto";
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}     
+
+.footer-left {
+  display: flex;
+  width: 490px;
+  height: 65px;
+}
+
+.footer-right {
+  display: flex;
+  width: 445px;
+  height: 50px;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.footer-heading {
+  color: rgba(224, 55, 64, 1);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;    
+}
