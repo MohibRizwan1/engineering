@@ -293,3 +293,14 @@ body {
 .list-item {
   margin-bottom: 25px;
 }
+
+/* ==================================
+                SECTION 11
+   =================================== */
+
+.image-container {
+  display: flex;
+  gap: 112px;
+  justify-content: center;
+  margin-top: 112px;
+}   
