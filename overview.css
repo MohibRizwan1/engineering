@@ -193,4 +193,52 @@ ul {
                 SECTION 7
    =================================== */
 
-   
+.item {
+  display: flex;
+  width: 1440px;
+  height: 658px;
+  gap: 112px;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+.item1 {
+  padding-top: 112px; 
+}
+
+.text {
+  width: 510px;
+  height: 392px;
+}
+
+.text2 {
+  width: 510px;
+  height: 416px;  
+  margin-right: 144px;
+}
+
+.text h3, .text2 h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.text strong, .text2 strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -4%;    
+}
+
+.text p, .text2 p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -4%;    
+}
+
+.image {
+  margin-top: 100px;
+  margin-right: 104px;
+}
