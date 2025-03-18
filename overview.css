@@ -190,7 +190,7 @@ ul {
 }
 
 /* ==================================
-                SECTION 7
+            SECTION 7, 8, 9
    =================================== */
 
 .item {
@@ -203,7 +203,7 @@ ul {
 }
 
 .item1 {
-  padding-top: 112px; 
+  padding-top: 112px;
 }
 
 .text {
@@ -213,29 +213,32 @@ ul {
 
 .text2 {
   width: 510px;
-  height: 416px;  
+  height: 416px;
   margin-right: 144px;
 }
 
-.text h3, .text2 h3 {
+.text h3,
+.text2 h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 32px;
 }
 
-.text strong, .text2 strong {
+.text strong,
+.text2 strong {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: -4%;    
+  letter-spacing: -4%;
 }
 
-.text p, .text2 p {
+.text p,
+.text2 p {
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: -4%;    
+  letter-spacing: -4%;
 }
 
 .image {
