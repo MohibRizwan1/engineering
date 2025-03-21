@@ -61,8 +61,7 @@ body {
 }
 
 .action-button span {
-  margin-left: 12px;
-  margin-bottom: 5px;
+  margin: 0 0 5px 12px;
   font-size: 20px;
 }
 
@@ -72,7 +71,6 @@ body {
 }
 
 .overview-text {
-  font-family: "Cygre";
   font-weight: 600;
   font-size: 48px;
   line-height: 48px;
@@ -240,8 +238,7 @@ body {
 }
 
 .image {
-  margin-top: 100px;
-  margin-right: 104px;
+  margin: 100px 104px 0 0;
 }
 
 /* ==================================
