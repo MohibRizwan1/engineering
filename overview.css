@@ -5,6 +5,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ==================================
@@ -16,7 +17,7 @@ body {
   align-items: center;
   padding-block: 16px;
   margin-inline: 144px;
-  border-bottom: 0.5px solid white;
+  border-bottom: 1px solid white;
   position: relative;
 }
 
@@ -40,12 +41,12 @@ body {
 }
 
 .logo img {
-  margin-left: 25px;
+  margin-left: 70px;
 }
 
 .action-button {
   background: none;
-  border: 0.5px solid white;
+  border: 1px solid white;
   color: white;
   text-transform: uppercase;
   padding: 10px 40px;
@@ -60,13 +61,15 @@ body {
   color: black;
 }
 
-.action-button span {
-  margin: 0 0 5px 12px;
-  font-size: 20px;
+.fa-solid {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  padding-left: 12px;
 }
 
 .overview {
-  background-image: url(images/hero-section.svg);
+  background: url(./images/hero-section.svg) no-repeat center/cover;
   height: 545px;
 }
 
@@ -85,12 +88,12 @@ body {
 
 .text-container {
   text-align: center;
+  justify-self: center;
   max-width: 600px;
-  margin: 0 auto;
   margin-block: 112px;
 }
 
-.red-line {
+hr {
   width: 150px;
   height: 4px;
   background-color: rgba(224, 55, 64, 1);
@@ -99,7 +102,6 @@ body {
 }
 
 .text-container p {
-  font-family: "Roboto";
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
@@ -122,7 +124,6 @@ body {
 
 .list-section {
   width: 548px;
-  font-family: "Roboto";
 }
 
 .heading1 {
@@ -166,7 +167,6 @@ body {
 
 .ena-heading {
   margin-top: 112px;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -178,14 +178,18 @@ body {
    =================================== */
 
 .bridge {
-  position: relative;
+  background: url(./images/bridge.svg) no-repeat center/cover;
+  height: 406px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 112px;
 }
 
-.bridge p {
-  position: absolute;
-  top: 5%;
-  left: 253px;
+.bridge div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 112px;
   font-weight: 700;
@@ -202,7 +206,6 @@ body {
   margin-bottom: 112px;
   gap: 112px;
   justify-content: center;
-  font-family: "Roboto";
 }
 
 .item1 {
@@ -255,7 +258,6 @@ body {
 .text-section {
   width: 548px;
   height: 432px;
-  font-family: "Roboto";
 }
 
 .heading {
@@ -268,7 +270,6 @@ body {
 }
 
 .list-container {
-  font-family: "Roboto";
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
@@ -295,57 +296,50 @@ body {
                 SECTION 12
    =================================== */
 
-.footer {
-  background-color: rgb(20, 21, 21);
-  margin-top: 200px;
-  padding: 72px 144px;
-  font-family: "Roboto";
-}
-
-.footer-container {
+footer {
   display: flex;
+  background-color: rgba(20, 21, 21, 1);
+  color: white;
+  padding: 72px;
+  justify-content: space-between;
+  margin-top: 250px;
   align-items: center;
-}     
+  max-width: 1440px;
+}
 
 .footer-left {
   display: flex;
-  width: 490px;
-  height: 65px;
+  gap: 32px;
+}
+
+.footer-nav-link {
+  display: inline-block;
+  padding-top: 30px;
 }
 
 .footer-right {
   display: flex;
-  width: 445px;
-  height: 50px;
-  /* margin-left: 100px; */
-  align-items: center;
-  justify-self: flex-end;
+  padding-bottom: 20px;
+  gap: 250px;
 }
 
-.footer-heading {
-  color: rgba(224, 55, 64, 1);
+.footer-section div {
+  padding-top: 30px;
+}
+
+.footer-title {
+  color: rgb(224, 55, 64);
   font-weight: 600;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;    
+  letter-spacing: 12%;  
 }
 
-.footer-text {
+.footer-link {
   color: white;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -4%;    
+  text-decoration: none;
 }
 
-.footer-logo {
-  margin-right: 32px;
-}
-
-.footer-right .footer-text {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -4%;   
-  margin-right: 100px;  
+.footer-link:hover {
+  text-decoration: underline;
 }

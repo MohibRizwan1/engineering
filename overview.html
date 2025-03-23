@@ -8,6 +8,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body>
     <!--============================
@@ -22,14 +24,14 @@
         </div>
 
         <div class="logo">
-          <img src="images/ena-logo.svg" alt="Logo">
+          <img src="./images/ena-logo.svg" alt="Logo">
         </div>
 
         <button class="action-button">
-          Let's Work Together <span>→</span>
+          Let's Work Together<i class="fa-solid fa-arrow-right-long"></i>
         </button>
       </header>
-      <p class="overview-text">ENA Overview:</p>
+      <div class="overview-text">ENA Overview:</div>
     </div>
 
     <!--============================
@@ -37,7 +39,7 @@
         ============================-->
 
     <div class="text-container">
-      <div class="red-line"></div>
+      <hr>
       <p>
         ENA Engineering specializes in holistic designs, integration, and
         maintenance considerations of a building’s core MEPFP systems to ensure
@@ -54,7 +56,7 @@
 
     <div class="list">
       <div class="list-section">
-        <p class="heading1">ENA Approach</p>
+        <div class="heading1">ENA Approach</div>
         <ul class="list-content">
           <li class="list-text">Client-focused ensuring client involvement in
             the design process
@@ -69,7 +71,7 @@
       </div>
 
       <div class="list-section">
-        <p class="heading1">ENA Project Sizes & Locations</p>
+        <div class="heading1">ENA Project Sizes & Locations</div>
         <ul class="list-content">
           <li class="list-text">
             No project too big or small. We have experience, manpower, and
@@ -88,7 +90,7 @@
         ============================-->
 
     <div class="blueprint">
-      <img src="images/blueprint.svg" alt="blueprint">
+      <img src="./images/blueprint.svg" alt="blueprint">
     </div>
 
     <!--============================
@@ -96,7 +98,7 @@
         ============================-->
 
     <div class="ena-heading">
-      <p>ENA Deep Dive</p>
+      ENA Deep Dive
     </div>
 
     <!--============================
@@ -104,8 +106,7 @@
         ============================-->
 
     <div class="bridge">
-      <img src="images/bridge.svg" alt="bridge">
-      <p>MEPFPLV</p>
+      <div>MEPFPLV</div>
     </div>
 
     <!--============================
@@ -132,7 +133,7 @@
             energy consumption</p>
         </div>
         <div>
-          <img src="images/img-group1.svg" alt="img-group1">
+          <img src="./images/img-group1.svg" alt="img-group1">
         </div>
       </div>
 
@@ -142,7 +143,7 @@
 
       <div class="item item2">
         <div>
-          <img src="images/img-group2.svg" alt="img-group2">
+          <img src="./images/img-group2.svg" alt="img-group2">
         </div>
         <div class="text2">
           <h3>Mechanical/HVAC</h3>
@@ -187,7 +188,7 @@
             applications.</p>
         </div>
         <div class="image">
-          <img src="images/img-group3.svg" alt="img-group3">
+          <img src="./images/img-group3.svg" alt="img-group3">
         </div>
       </div>
     </div>
@@ -240,34 +241,35 @@
         ============================-->
 
     <div class="image-container">
-      <img src="images/servers.svg" alt="server">
-      <img src="images/cameras.svg" alt="camera">
+      <img src="./images/servers.svg" alt="server">
+      <img src="./images/cameras.svg" alt="camera">
     </div>
 
     <!--============================
                   SECTION 12
         ============================-->
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-left">
-          <img src="images/ena-logo2.svg" alt="logo" class="footer-logo">
-          <div class="footer-section">
-            <p class="footer-heading">NAVIGATION</p>
-            <p class="footer-text">About Contact</p>
-          </div>
+    <!-- Logo and Navigation -->
+    <footer>
+      <div class="footer-left">
+        <img src="./images/ena-logo2.svg" alt="ENA Engineering Logo">
+        <div>
+          <div class="footer-title">NAVIGATION</div>
+          <div class="footer-nav-link">About</div>
+          <div class="footer-nav-link">Contact</div>
         </div>
-
-        <div class="footer-right">
-          <div class="footer-section">
-            <p class="footer-heading">LOCATION</p>
-            <p class="footer-text">New Jersey</p>
-          </div>
-
-          <div class="footer-section">
-            <p class="footer-heading">CONTACTS</p>
-            <p class="footer-text">info@ena-engineering.com</p>
-          </div>
+      </div>
+    
+      <!-- Location & Contacts -->
+      <div class="footer-right">
+        <div class="footer-section">
+          <div class="footer-title">LOCATION</div>
+          <div class="footer-nav-link">New Jersey</div>
+        </div>
+    
+        <div class="footer-section">
+          <div class="footer-title">CONTACTS</div>
+          <div class="footer-nav-link"><a href="#" class="footer-link">info@ena-engineering.com</a></div>
         </div>
       </div>
     </footer>
