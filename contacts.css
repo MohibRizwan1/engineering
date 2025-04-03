@@ -1,0 +1,63 @@
+/* ==================================
+                GENERAL CSS
+   ================================== */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ==================================
+                SECTION 1
+   =================================== */
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(20, 21, 21, 1);
+  color: white;
+}   
+
+.left-section {
+  display: flex;
+  padding-left: 144px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
+
+.contact {
+  padding-left: 56px;
+  padding-right: 383px;
+}
+
+.middle-section {
+  padding-block: 16px;
+}
+
+.action-button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  margin-left: 250px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.action-button:hover {
+  background: white;
+  color: black;
+}
+
+.fa-solid {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  padding-left: 12px;
+}
