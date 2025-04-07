@@ -69,7 +69,7 @@ body {
 }
 
 .overview {
-  background: url(./images/hero-section.svg) no-repeat center/cover;
+  background: url(./overview-imgs/hero-section.svg) no-repeat center/cover;
   height: 545px;
 }
 
@@ -178,7 +178,7 @@ hr {
    =================================== */
 
 .bridge {
-  background: url(./images/bridge.svg) no-repeat center/cover;
+  background: url(./overview-imgs/bridge.svg) no-repeat center/cover;
   height: 406px;
   display: flex;
   justify-content: center;
