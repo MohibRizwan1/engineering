@@ -137,3 +137,55 @@ form button:hover {
   background-color: rgba(224, 55, 64, 1); 
   color: white;  
 }
+
+/* ==================================
+                SECTION 3
+   =================================== */
+
+footer {
+  display: flex;
+  background-color: rgba(20, 21, 21, 1);
+  color: white;
+  padding: 30px 144px;
+  justify-content: space-between;
+  margin-top: 250px;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-nav-link {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.footer-right {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 250px;
+}
+
+.footer-section div {
+  padding-top: 30px;
+}
+
+.footer-title {
+  color: rgb(224, 55, 64);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;  
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
