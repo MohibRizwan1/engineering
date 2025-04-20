@@ -84,18 +84,28 @@ header {
 }
 
 .contact-form {
-  padding: 40px;
+  padding: 50px 0 0 72px;
   flex: 1;
 }
 
 .contact-form h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  margin-top: 0;
   margin-bottom: 16px;
   color: rgba(20, 21, 21, 1);
 }
 
 .contact-form p {
-  font-size: 14px;
-  margin-bottom: 20px;
+  width: 427px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -4%;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .email-link {
@@ -105,30 +115,25 @@ header {
   margin-bottom: 20px;
 }
 
-form label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 4px;
+input {
+  display: flex;
+  margin-bottom: 16px;
+  width: 427px;
+  border: none;
+  border-bottom: 1px solid rgba(146, 146, 146, 1);
+  padding: 20px;
 }
 
 form button {
   color: rgba(224, 55, 64, 1);
-  padding: 10px 24px;
-  border: 1px rgba(224, 55, 64, 1) solid;
-  border-radius: 4px;
+  background-color: white;
+  padding: 12px 24px;
+  border: 1px solid rgba(224, 55, 64, 1);
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* .fa-arrow-right-long {
-  width: 20px;
-  height: 20px;
-  color: red;  
-} */
+form button:hover {
+  background-color: rgba(224, 55, 64, 1); 
+  color: white;  
+}
