@@ -125,3 +125,20 @@ body {
   color: rgba(20, 21, 21, 1);
   margin-bottom: 0;
 }
+
+/* ==================================
+                SECTION 3
+  =================================== */
+
+.market-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;  
+  margin-top: 112px;
+  margin-bottom: 48px;  
+}  
+
+.img-container {
+  justify-self: center;
+}
