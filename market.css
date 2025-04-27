@@ -102,11 +102,13 @@ body {
 }
 
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
+  display: flex;
   gap: 57px 8px;
   text-align: center;
+}
+
+.flex-container {
+  margin-bottom: 30px;
 }
 
 .services-grid div {
@@ -115,7 +117,7 @@ body {
   font-size: 18px;
   line-height: 100%;
   text-align: center;
-  vertical-align: bottom;
+  align-self: center;
   color: rgba(20, 21, 21, 1);
 }
 
@@ -165,17 +167,12 @@ footer {
 
 .footer-nav-link {
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 16px;
 }
 
 .footer-right {
   display: flex;
-  padding-bottom: 20px;
   gap: 250px;
-}
-
-.footer-section div {
-  padding-top: 30px;
 }
 
 .footer-title {
@@ -193,4 +190,125 @@ footer {
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+
+  /* Styles for small mobile devices */
+  .header {
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 16px;
+    height: 97px;
+  }
+
+  .logo {
+    justify-content: flex-start;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .nav-links {
+    gap: 32px;
+  }
+
+  .action-button {
+    display: none;
+  }
+
+  .overview-text {
+    width: 334px;
+    line-height: 44px;
+    margin-top: 154px;
+    font-size: 40px;
+  }
+
+  .ena-section {
+    padding: 40px 16px;
+  }
+
+  .heading p {
+    width: 282px;
+    font-size: 32px;
+    line-height: 32px;
+    justify-self: center;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .flex-container {
+    margin-bottom: 16px;
+  }
+
+  .market-heading {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .grid-img {
+    width: 400px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 32px 16px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .footer-title {
+    padding-top: 0;
+  }
+
+  .location {
+    padding-top: 24px;
+  }
+}
+
+/* Larger Mobile (portrait/landscape) */
+@media (max-width: 576px) {
+  /* Styles for larger phones */
+}
+
+/* Tablet (portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles for tablets in portrait mode */
+}
+
+/* Tablet (landscape) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Laptop */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for laptops */
+}
+
+/* Desktop */
+@media (min-width: 1201px) {
+  /* Styles for desktops and large screens */
 }
