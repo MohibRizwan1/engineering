@@ -195,7 +195,9 @@ footer {
 /* Mobile (up to 480px or 576px) */
 @media (max-width: 480px) {
 
-  /* Styles for small mobile devices */
+  /*==================================
+                SECTION 1
+    ===================================*/
   .header {
     flex-direction: row-reverse;
     margin: 0;
@@ -226,16 +228,18 @@ footer {
     font-size: 40px;
   }
 
+  /*==================================
+                SECTION 2
+    ===================================*/
+
   .ena-section {
     padding: 40px 16px;
   }
 
   .heading p {
     width: 282px;
-    font-size: 32px;
-    line-height: 32px;
     justify-self: center;
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 32px;
   }
 
@@ -247,6 +251,10 @@ footer {
   .flex-container {
     margin-bottom: 16px;
   }
+
+  /*==================================
+                SECTION 3
+    ===================================*/
 
   .market-heading {
     margin-top: 40px;
@@ -260,6 +268,10 @@ footer {
   .grid-img {
     width: 400px;
   }
+
+  /*==================================
+                SECTION 4
+    ===================================*/
 
   footer {
     flex-direction: column;
@@ -289,18 +301,238 @@ footer {
 }
 
 /* Larger Mobile (portrait/landscape) */
-@media (max-width: 576px) {
-  /* Styles for larger phones */
-}
+@media (max-width: 576px) {}
+
+
 
 /* Tablet (portrait) */
 @media (min-width: 577px) and (max-width: 768px) {
-  /* Styles for tablets in portrait mode */
+
+  /*==================================
+                SECTION 1
+    ===================================*/
+
+  .header {
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 16px;
+    height: 97px;
+  }
+
+  .logo {
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .nav-links {
+    gap: 32px;
+    margin-right: 50px;
+  }
+
+  .action-button {
+    display: none;
+  }
+
+  /*==================================
+                SECTION 2
+    ===================================*/
+
+  .heading p {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .ena-section {
+    padding: 40px 16px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /*==================================
+                SECTION 3
+    ===================================*/
+
+  .market-heading {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .container1 img,
+  .container2 img,
+  .container3 img {
+    margin-bottom: 8px;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-img {
+    width: 710px;
+  }
+
+  /*==================================
+                SECTION 4
+    ===================================*/
+
+  footer {
+    flex-direction: column;
+    padding: 32px 16px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .footer-title {
+    padding-top: 0;
+  }
+
+  .location {
+    padding-top: 24px;
+  }
 }
 
 /* Tablet (landscape) */
 @media (min-width: 769px) and (max-width: 992px) {
-  /* Styles for tablets in landscape mode */
+
+  /*==================================
+                SECTION 1
+    ===================================*/
+
+  .header {
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 16px;
+    height: 97px;
+  }
+
+  .logo {
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .nav-links {
+    gap: 32px;
+    margin-right: 50px;
+  }
+
+  .action-button {
+    display: none;
+  }
+
+  /*==================================
+                SECTION 2
+    ===================================*/
+
+  .heading p {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .ena-section {
+    padding: 40px 16px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .services-grid div {
+    font-size: 25px;
+  }
+
+  .services-grid .value {
+    font-size: 15px;
+  }
+
+  /*==================================
+                SECTION 3
+    ===================================*/
+
+  .market-heading {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .container1 img,
+  .container2 img,
+  .container3 img {
+    margin-bottom: 12px;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-img {
+    width: 830px;
+  }
+
+  /*==================================
+                SECTION 4
+    ===================================*/
+
+  footer {
+    flex-direction: column;
+    padding: 32px 16px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .footer-title {
+    padding-top: 0;
+  }
+
+  .location {
+    padding-top: 24px;
+  }
 }
 
 /* Laptop */
