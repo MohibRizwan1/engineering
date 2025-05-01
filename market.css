@@ -303,8 +303,6 @@ footer {
 /* Larger Mobile (portrait/landscape) */
 @media (max-width: 576px) {}
 
-
-
 /* Tablet (portrait) */
 @media (min-width: 577px) and (max-width: 768px) {
 
@@ -535,12 +533,12 @@ footer {
   }
 }
 
-/* Laptop */
+/* Laptop
 @media (min-width: 993px) and (max-width: 1200px) {
-  /* Styles for laptops */
+  Styles for laptops
 }
 
-/* Desktop */
+Desktop
 @media (min-width: 1201px) {
-  /* Styles for desktops and large screens */
-}
+  Styles for desktops and large screens
+} */

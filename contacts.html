@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="stylesheet" href="contacts.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-    rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
@@ -22,13 +23,11 @@
           <a href="#">Contact</a>
         </div>
       </div>
-      <div class="middle-section"><img src="./contacts-imgs/ena-logo.svg"
-          alt="ena-logo"></div>
-      <div>
-        <button class="action-button">
-          Let's Work Together<i class="fa-solid fa-arrow-right-long"></i>
-        </button>
-      </div>
+      <img src="./contacts-imgs/ena-logo.svg" alt="ena-logo"
+        class="middle-img">
+      <button class="action-button">
+        Let's Work Together<i class="fa-solid fa-arrow-right-long"></i>
+      </button>
     </header>
 
     <!--============================
@@ -47,8 +46,11 @@
             inquiries regarding current or completed projects, or wish to engage
             with us, we're here to assist.</p>
 
-          <a href="mailto:info@ena-engineering.com"
-            class="email-link">info@ena-engineering.com</a>
+          <div class="email-container">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:info@ena-engineering.com"
+              class="email-link">info@ena-engineering.com</a>
+          </div>
 
           <form>
             <input type="text" id="name" name="name" placeholder="FULL NAME">
