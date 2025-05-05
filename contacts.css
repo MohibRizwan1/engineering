@@ -448,6 +448,124 @@ footer {
 /* Tablet (landscape) */
 @media (min-width: 769px) and (max-width: 992px) {
   /* Styles for tablets in landscape mode */
+  /*==================================
+                SECTION 1
+    ===================================*/
+
+  header {
+    flex-direction: row-reverse;
+    padding: 16px;
+    justify-content: space-between;
+  }
+
+  .middle-img {
+    margin-right: 145px;
+  }
+
+  .action-button {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*==================================
+                    SECTION 2
+        ===================================*/
+
+  .contact-section {
+    padding: 0;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+  }
+
+  .contact-image {
+    padding: 0 16px;
+    margin-bottom: 0;
+  }
+
+  .contact-form {
+    padding: 40px 16px 32px 16px;
+  }
+
+  .contact-form h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .contact-form p {
+    width: 600px;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -4%;
+    margin-bottom: 24px;
+  }
+
+  .email-link {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .fa-envelope {
+    padding: 2px 10px 0 0;
+    font-size: 20px;
+  }
+
+  #name,
+  #email,
+  #message {
+    width: 550px;
+  }
+
+  form ::placeholder {
+    font-size: 18px;
+  }
+
+  form button {
+    font-size: 20px;
+  }
+
+  /*==================================
+                    SECTION 3
+        ===================================*/
+
+  footer {
+    flex-direction: column;
+    padding: 32px 16px;
+    text-align: center;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .footer-title {
+    padding-top: 0;
+  }
+
+  .location {
+    padding-top: 24px;
+  }
 }
 
 /* Laptop */
