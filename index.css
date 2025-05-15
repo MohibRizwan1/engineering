@@ -115,8 +115,8 @@ hr {
 
 .list {
   display: flex;
-  margin-left: 30px;
   text-align: center;
+  justify-content: center;
   list-style-position: inside;
   gap: 112px;
 }
@@ -155,8 +155,7 @@ hr {
   display: flex;
   justify-self: center;
   margin-top: 112px;
-  width: 100%;
-  height: 745px;
+  width: 98%;
 }
 
 
@@ -269,7 +268,6 @@ hr {
 
 .text-section {
   width: 548px;
-  /* height: 432px; */
 }
 
 .heading {
@@ -299,9 +297,14 @@ hr {
 
 .image-container {
   display: flex;
-  gap: 112px;
+  gap: 56px;
   justify-content: center;
   margin-top: 112px;
+}
+
+.image-container img {
+  width: 40%;
+
 }
 
 /* ==================================
@@ -314,9 +317,8 @@ footer {
   color: white;
   padding: 30px 144px;
   justify-content: space-between;
-  margin-top: 250px;
+  margin-top: 200px;
   align-items: center;
-  max-width: 1440px;
 }
 
 .footer-left {
@@ -332,7 +334,7 @@ footer {
 .footer-right {
   display: flex;
   padding-bottom: 20px;
-  gap: 250px;
+  gap: 180px;
 }
 
 .footer-section div {
