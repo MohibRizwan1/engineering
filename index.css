@@ -505,6 +505,11 @@ footer {
 
   .item2 {
     flex-direction: column-reverse;
+    gap: 70px;
+  }
+
+  .item2 img {
+    margin-top: 32px;
   }
 
   .text {
@@ -577,11 +582,15 @@ footer {
     ===================================*/
 
   .image-container {
-    width: 400px;
     flex-direction: column;
     gap: 12px;
     margin-top: 32px;
     justify-self: center;
+  }
+
+  .image-container img {
+    width: 90%;
+    align-self: center;
   }
 
   /*==================================
