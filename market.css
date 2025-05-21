@@ -160,6 +160,11 @@ footer {
   max-width: 1440px;
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-left {
   display: flex;
   gap: 32px;
